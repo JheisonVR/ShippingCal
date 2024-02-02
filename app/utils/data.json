@@ -1,0 +1,119 @@
+{
+    "services":[
+        {
+            "name":"Agilbox",
+            "type":"",
+            "zone":[
+                {
+                    "name":"España",
+                    "url":"http://localhost:8080/service1",
+                    "currency":"USD",
+                    "weight":[
+                        {
+                            "name":"1",
+                            "price":35,
+                            "range_min":0,
+                            "range_max":1
+                        },
+                        {
+                            "name":"1-2kg",
+                            "price":45,
+                            "range_min":1,
+                            "range_max":2
+                        }
+                    ]
+                },
+                {
+                    "name":"US",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"US + local",
+                    "url":"http://localhost:8080/service1"
+                }
+            ]
+        },
+        {
+            "name":"Agilex",
+            "type":[
+                {
+                    "name":"Agilex Top",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Agilex CEA",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Agilex Aliados",
+                    "url":"http://localhost:8080/service1"
+                }
+            ],
+            "zone":[
+                {
+                    "name":"Zona 1",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Zona 2",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Zona 3",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Zona 4",
+                    "url":"http://localhost:8080/service1"
+                }
+            ]
+        },
+        {
+            "name":"Copa",
+            "url":"http://localhost:8080/service3",
+            "type":"",
+            "zone":[
+                {
+                    "name":"VZ-CU",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"SV-GT-HN-PA",
+                    "url":"http://localhost:8080/service1"
+                }
+            ]
+        },
+        {
+            "name":"Nuevas Rutas",
+            "url":"http://localhost:8080/service3",
+            "type":"",
+            "zone":[
+                {
+                    "name":"Costa Rica",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Ecuador",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Nicaragua",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Republica Dominicana",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Venezuela",
+                    "url":"http://localhost:8080/service1"
+                },
+                {
+                    "name":"Mexico",
+                    "url":"http://localhost:8080/service1"
+                }
+            ]
+        }
+
+    ]
+}
